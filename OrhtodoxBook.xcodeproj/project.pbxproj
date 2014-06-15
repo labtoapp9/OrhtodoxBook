@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18371B77194E19B100BFDBB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18371B76194E19B100BFDBB6 /* Foundation.framework */; };
+		18371B79194E19B100BFDBB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18371B78194E19B100BFDBB6 /* CoreGraphics.framework */; };
+		18371B7B194E19B100BFDBB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18371B7A194E19B100BFDBB6 /* UIKit.framework */; };
+		18371B81194E19B100BFDBB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18371B7F194E19B100BFDBB6 /* InfoPlist.strings */; };
+		18371B83194E19B100BFDBB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18371B82194E19B100BFDBB6 /* main.m */; };
+		18371B87194E19B100BFDBB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18371B86194E19B100BFDBB6 /* AppDelegate.m */; };
+		18371B8A194E19B100BFDBB6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18371B88194E19B100BFDBB6 /* Main_iPhone.storyboard */; };
+		18371B8D194E19B100BFDBB6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18371B8B194E19B100BFDBB6 /* Main_iPad.storyboard */; };
+		18371B90194E19B100BFDBB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18371B8F194E19B100BFDBB6 /* ViewController.m */; };
+		18371B92194E19B100BFDBB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18371B91194E19B100BFDBB6 /* Images.xcassets */; };
+		18371B99194E19B100BFDBB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18371B98194E19B100BFDBB6 /* XCTest.framework */; };
+		18371B9A194E19B100BFDBB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18371B76194E19B100BFDBB6 /* Foundation.framework */; };
+		18371B9B194E19B100BFDBB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18371B7A194E19B100BFDBB6 /* UIKit.framework */; };
+		18371BA3194E19B100BFDBB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18371BA1194E19B100BFDBB6 /* InfoPlist.strings */; };
+		18371BA5194E19B100BFDBB6 /* OrhtodoxBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18371BA4194E19B100BFDBB6 /* OrhtodoxBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18371B9C194E19B100BFDBB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18371B6B194E19B000BFDBB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18371B72194E19B000BFDBB6;
+			remoteInfo = OrhtodoxBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18371B73194E19B100BFDBB6 /* OrhtodoxBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrhtodoxBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18371B76194E19B100BFDBB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18371B78194E19B100BFDBB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18371B7A194E19B100BFDBB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18371B7E194E19B100BFDBB6 /* OrhtodoxBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrhtodoxBook-Info.plist"; sourceTree = "<group>"; };
+		18371B80194E19B100BFDBB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18371B82194E19B100BFDBB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18371B84194E19B100BFDBB6 /* OrhtodoxBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrhtodoxBook-Prefix.pch"; sourceTree = "<group>"; };
+		18371B85194E19B100BFDBB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18371B86194E19B100BFDBB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18371B89194E19B100BFDBB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		18371B8C194E19B100BFDBB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		18371B8E194E19B100BFDBB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18371B8F194E19B100BFDBB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18371B91194E19B100BFDBB6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18371B97194E19B100BFDBB6 /* OrhtodoxBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrhtodoxBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18371B98194E19B100BFDBB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18371BA0194E19B100BFDBB6 /* OrhtodoxBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrhtodoxBookTests-Info.plist"; sourceTree = "<group>"; };
+		18371BA2194E19B100BFDBB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18371BA4194E19B100BFDBB6 /* OrhtodoxBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrhtodoxBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18371B70194E19B000BFDBB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18371B79194E19B100BFDBB6 /* CoreGraphics.framework in Frameworks */,
+				18371B7B194E19B100BFDBB6 /* UIKit.framework in Frameworks */,
+				18371B77194E19B100BFDBB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18371B94194E19B100BFDBB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18371B99194E19B100BFDBB6 /* XCTest.framework in Frameworks */,
+				18371B9B194E19B100BFDBB6 /* UIKit.framework in Frameworks */,
+				18371B9A194E19B100BFDBB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18371B6A194E19B000BFDBB6 = {
+			isa = PBXGroup;
+			children = (
+				18371B7C194E19B100BFDBB6 /* OrhtodoxBook */,
+				18371B9E194E19B100BFDBB6 /* OrhtodoxBookTests */,
+				18371B75194E19B100BFDBB6 /* Frameworks */,
+				18371B74194E19B100BFDBB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18371B74194E19B100BFDBB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18371B73194E19B100BFDBB6 /* OrhtodoxBook.app */,
+				18371B97194E19B100BFDBB6 /* OrhtodoxBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18371B75194E19B100BFDBB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18371B76194E19B100BFDBB6 /* Foundation.framework */,
+				18371B78194E19B100BFDBB6 /* CoreGraphics.framework */,
+				18371B7A194E19B100BFDBB6 /* UIKit.framework */,
+				18371B98194E19B100BFDBB6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18371B7C194E19B100BFDBB6 /* OrhtodoxBook */ = {
+			isa = PBXGroup;
+			children = (
+				18371B85194E19B100BFDBB6 /* AppDelegate.h */,
+				18371B86194E19B100BFDBB6 /* AppDelegate.m */,
+				18371B88194E19B100BFDBB6 /* Main_iPhone.storyboard */,
+				18371B8B194E19B100BFDBB6 /* Main_iPad.storyboard */,
+				18371B8E194E19B100BFDBB6 /* ViewController.h */,
+				18371B8F194E19B100BFDBB6 /* ViewController.m */,
+				18371B91194E19B100BFDBB6 /* Images.xcassets */,
+				18371B7D194E19B100BFDBB6 /* Supporting Files */,
+			);
+			path = OrhtodoxBook;
+			sourceTree = "<group>";
+		};
+		18371B7D194E19B100BFDBB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18371B7E194E19B100BFDBB6 /* OrhtodoxBook-Info.plist */,
+				18371B7F194E19B100BFDBB6 /* InfoPlist.strings */,
+				18371B82194E19B100BFDBB6 /* main.m */,
+				18371B84194E19B100BFDBB6 /* OrhtodoxBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18371B9E194E19B100BFDBB6 /* OrhtodoxBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				18371BA4194E19B100BFDBB6 /* OrhtodoxBookTests.m */,
+				18371B9F194E19B100BFDBB6 /* Supporting Files */,
+			);
+			path = OrhtodoxBookTests;
+			sourceTree = "<group>";
+		};
+		18371B9F194E19B100BFDBB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18371BA0194E19B100BFDBB6 /* OrhtodoxBookTests-Info.plist */,
+				18371BA1194E19B100BFDBB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18371B72194E19B000BFDBB6 /* OrhtodoxBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18371BA8194E19B100BFDBB6 /* Build configuration list for PBXNativeTarget "OrhtodoxBook" */;
+			buildPhases = (
+				18371B6F194E19B000BFDBB6 /* Sources */,
+				18371B70194E19B000BFDBB6 /* Frameworks */,
+				18371B71194E19B000BFDBB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrhtodoxBook;
+			productName = OrhtodoxBook;
+			productReference = 18371B73194E19B100BFDBB6 /* OrhtodoxBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18371B96194E19B100BFDBB6 /* OrhtodoxBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18371BAB194E19B100BFDBB6 /* Build configuration list for PBXNativeTarget "OrhtodoxBookTests" */;
+			buildPhases = (
+				18371B93194E19B100BFDBB6 /* Sources */,
+				18371B94194E19B100BFDBB6 /* Frameworks */,
+				18371B95194E19B100BFDBB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18371B9D194E19B100BFDBB6 /* PBXTargetDependency */,
+			);
+			name = OrhtodoxBookTests;
+			productName = OrhtodoxBookTests;
+			productReference = 18371B97194E19B100BFDBB6 /* OrhtodoxBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18371B6B194E19B000BFDBB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18371B96194E19B100BFDBB6 = {
+						TestTargetID = 18371B72194E19B000BFDBB6;
+					};
+				};
+			};
+			buildConfigurationList = 18371B6E194E19B000BFDBB6 /* Build configuration list for PBXProject "OrhtodoxBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18371B6A194E19B000BFDBB6;
+			productRefGroup = 18371B74194E19B100BFDBB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18371B72194E19B000BFDBB6 /* OrhtodoxBook */,
+				18371B96194E19B100BFDBB6 /* OrhtodoxBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18371B71194E19B000BFDBB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18371B8D194E19B100BFDBB6 /* Main_iPad.storyboard in Resources */,
+				18371B92194E19B100BFDBB6 /* Images.xcassets in Resources */,
+				18371B8A194E19B100BFDBB6 /* Main_iPhone.storyboard in Resources */,
+				18371B81194E19B100BFDBB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18371B95194E19B100BFDBB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18371BA3194E19B100BFDBB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18371B6F194E19B000BFDBB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18371B90194E19B100BFDBB6 /* ViewController.m in Sources */,
+				18371B87194E19B100BFDBB6 /* AppDelegate.m in Sources */,
+				18371B83194E19B100BFDBB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18371B93194E19B100BFDBB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18371BA5194E19B100BFDBB6 /* OrhtodoxBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18371B9D194E19B100BFDBB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18371B72194E19B000BFDBB6 /* OrhtodoxBook */;
+			targetProxy = 18371B9C194E19B100BFDBB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18371B7F194E19B100BFDBB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18371B80194E19B100BFDBB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18371B88194E19B100BFDBB6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18371B89194E19B100BFDBB6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		18371B8B194E19B100BFDBB6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18371B8C194E19B100BFDBB6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		18371BA1194E19B100BFDBB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18371BA2194E19B100BFDBB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18371BA6194E19B100BFDBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18371BA7194E19B100BFDBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18371BA9194E19B100BFDBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrhtodoxBook/OrhtodoxBook-Prefix.pch";
+				INFOPLIST_FILE = "OrhtodoxBook/OrhtodoxBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18371BAA194E19B100BFDBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrhtodoxBook/OrhtodoxBook-Prefix.pch";
+				INFOPLIST_FILE = "OrhtodoxBook/OrhtodoxBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18371BAC194E19B100BFDBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrhtodoxBook.app/OrhtodoxBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrhtodoxBook/OrhtodoxBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrhtodoxBookTests/OrhtodoxBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18371BAD194E19B100BFDBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrhtodoxBook.app/OrhtodoxBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrhtodoxBook/OrhtodoxBook-Prefix.pch";
+				INFOPLIST_FILE = "OrhtodoxBookTests/OrhtodoxBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18371B6E194E19B000BFDBB6 /* Build configuration list for PBXProject "OrhtodoxBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18371BA6194E19B100BFDBB6 /* Debug */,
+				18371BA7194E19B100BFDBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18371BA8194E19B100BFDBB6 /* Build configuration list for PBXNativeTarget "OrhtodoxBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18371BA9194E19B100BFDBB6 /* Debug */,
+				18371BAA194E19B100BFDBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18371BAB194E19B100BFDBB6 /* Build configuration list for PBXNativeTarget "OrhtodoxBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18371BAC194E19B100BFDBB6 /* Debug */,
+				18371BAD194E19B100BFDBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18371B6B194E19B000BFDBB6 /* Project object */;
+}
